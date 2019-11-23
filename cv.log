@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.10)  23 NOV 2019 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.10)  23 NOV 2019 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,27 +316,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 106.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 8E6583545A49E0B3AA7136204C21719D;132.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: C3C085F65F18DC1CDEFE12A48D19BEFF;233
+(rerunfilecheck)             After:  B0B1324B0C46D78D683B9C760015B140;239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 6570 strings out of 492982
- 95244 string characters out of 6134895
- 197600 words of memory out of 5000000
- 10075 multiletter control sequences out of 15000+600000
+ 6574 strings out of 492982
+ 95284 string characters out of 6134895
+ 196600 words of memory out of 5000000
+ 10077 multiletter control sequences out of 15000+600000
  8209 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,306b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,43p,332b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -346,10 +353,10 @@ t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti9.pfb>
-Output written on cv.pdf (1 page, 123227 bytes).
+Output written on cv.pdf (1 page, 130019 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
