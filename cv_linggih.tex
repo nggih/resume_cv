@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{http://nggih.github.io/}{\Large Linggih Saputro}} & Email : \href{mailto:linggih.saputro@sci.ui.ac.id}{linggih.saputro@sci.ui.ac.id}\\
+    \href{http://nggih.github.io/}{http://nggih.github.io} & Mobile : +62-877-7666-2583 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {University of South Florida : Fulbright Scholarship Recipient}{Tampa, FL}
+    {Master of Science in Bioinformatics and Computational Biology;  GPA: 3.49/4.00}{Aug. 2016 -- May. 2018}
+    \resumeSubheading
+{University of Indonesia}{Depok, Indonesia}
+      {Bachelor of Science in Chemistry;  GPA: 3.16/4.00)}{Aug. 2010 -- July. 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Johnson \& Johnson}{Remote - US}
+      {Machine Learning Engineer}{Aug 2021 - Project based}
+      \resumeItemListStart
+        \resumeItem{Research and Prototyping}
+        {Implemented various deep learning and machine learning techniques. Solving business cases, experimenting with image classification, object detection, voice over command, information retrieval.}
+      \resumeItemListEnd
+    \resumeSubheading
+    {SRW\&Co.}{Jakarta}
+      {Senior Artificial Intelligence Engineer}{July 2018 - now}
+      \resumeItemListStart
+        \resumeItem{Research and Prototyping}
+        {Implement various deep learning techniques. Mostly working natural language processing (NLP) solutions related to the business cases.}
+        \resumeItem{Product Development}
+        {Research on the potential applications using AI on the business cases, discuss with the product team}
+        \resumeItem{API Deployment}
+        {Design, develop and deploy the production grade of AI models using Pytorch on the cloud}
+        \resumeItem{Web Development}
+        {Helped on Profesi.io web app, handling front-end development (Vue2 \& Nuxt, React \& Next) and the back-end (AdonisJS 5)}
+        \resumeItem{DevOps}
+        {Used Kubernetes in GCP to deploy the Profesi.io and connected it to Bitbucket pipelines}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Konvergen.AI}{Jakarta}
+      {Artificial Intelligence Engineer}{July 2018 - May 2020}
+      \resumeItemListStart
+        \resumeItem{Research and Prototyping}
+        {Implement various deep learning techniques. For examples, image segmentation (semantic and instance), object detection and natural language processing in order to gain the relevant information for the customers. Develop the prototype, validate the results, test the performance of the models.}
+        \resumeItem{Deployment}
+        {Design, develop and deploy the production grade of AI solutions.}
+        \resumeItem{Frameworks}
+        {Using Pytorch(1.x.x)/Tensorflow(1.x) from prototyping to production. Debugging in C++ and Python.}
+        \resumeItem{Data Related}
+        {Contribute accelerating data collection using synthetic data and pseudotagging. Create retraining platform to alleviate the updating model procedure.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+    {BeOne Solution, PT}{Jakarta}
+    {SAP B1 Junior Consultant}{Dec. 2014 - Oct. 2015}
+      \resumeItemListStart
+        \resumeItem{Consulting}
+        {Mapped the client's technical and business requirements. Provided recommendation on technical solutions to implement based on findings. Presented at weekly client meetings to update and flag any potential red flags.}
+        \resumeItem{Technical}
+        {Modified user defined field based on client's requirements using SQL and assisted the implementation, led to less time usage.}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Other Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Wildlife Conservation Society}{Remote}
+    {E-commerce illegal wildlife trading scraping}{Aug 2022 - 2023}
+      \resumeItemListStart
+        \resumeItem{Challenge}
+        {Working in Progress: Automate the scraping and tracking of the illegal wildlife trading.}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Omdena}{Remote}
+    {Quantifying the Impact of Forest Landscape Restoration Through Predictive Analysis}{May - June 2021}
+      \resumeItemListStart
+        \resumeItem{Challenge}
+        {collaborating with impact startup  Trillion Tree Fund within 2 months, worked on a predictive impact analytics dashboard that can quantify the socio-economic, and environmental impact of making an investment in a partical Forest Landscape restoration project}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Zoohackthon 2019}{Kinabalu, Malaysia}
+    {First place winner}{Nov 15, 2019}
+      \resumeItemListStart
+        \resumeItem{Solution}
+        {Using deep learning to automatically extract key information in online news articles to shorten the time spent on manually reading these articles that would be typically done by analysts working on a certain case in counter wildlife trafficking efforts.}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Mosquitos Zones HackZika by Tampa Bay Python Group}{Tampa, FL, USA}
+    {Second place winner}{Sep 27, 2017}
+      \resumeItemListStart
+        \resumeItem{Solution}
+        {Using decision tree to prioritize which zones or areas that are needed to be sprayed, based on the request calls for spraying in those areas}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Bounty Hunter Hackathon by TeamWERX}{Tampa, FL, USA}
+    {Second place winner}{May 12-13, 2017}
+      \resumeItemListStart
+        \resumeItem{Solution}
+        {Predicted location of hijacked cargo ship using linear regression to project its trajectory using Python, Planet API and QGIS coordinates. Led a team of three}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section{On-Site Courses}
+    \resumeSubHeadingListStart
+        \resumeSubItem{Integrated Mathematical Oncology Workshop}
+        {Connecting the microenvironmental niche to treatment response in ovarian cancer (https://www.biorxiv.org/content/10.1101/452052v1).}
+        \resumeSubItem{Dr. Rays Jiang's Lab}
+        {Helped implementing the algorithm for single cell sequencing technique, observed the growth and separated cell lines into single cell.}
+        \resumeSubItem{Fulbright Pre-Academic Program}
+        {at Mississippi State University (July 16 - Aug 6, 2016).}
+        \resumeSubItem{Institute of Indonesia Chartered Accountants}
+        {Applied Tax Training Brevet A\&B and C.}
+        \resumeSubItem{Bina Nusantara (BINUS)}
+        {Computerized Accounting.}
+    \resumeSubHeadingListEnd
+
+\section{Online Courses}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Coursera}
+    {Neural Networks and Deep Learning}
+    \resumeSubItem{Udacity}
+    {Predicted Bostong housing price using decision tree, Customers Segment using K-means clustering, Predicted suitable donors using SVC, Trained a virtual smart cab in reinforcement learning simulation, Classified CIFAR dataset using convolutional neural network}
+  \resumeSubHeadingListEnd
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+
